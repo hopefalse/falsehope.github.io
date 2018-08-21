@@ -4,22 +4,6 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
 
-.titlehome {
-	max-width: 100%;
-    	height: auto;
-	position: fixed;
-	top: 32%;
-  	left: 32%;
-}
-
-.img-hor-vert {
-     	-moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-}
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -29,6 +13,40 @@ body {
 	color:#fff;
 	background-color:#fff;
 	overflow-x:hidden;
+}
+
+.titlehome {
+	
+	max-width: 100%;
+    	
+	height: auto;
+	
+	position: fixed;
+	
+	text-align: center;
+}
+
+
+
+.img-hor-vert {
+     	
+	-moz-transform: scaleX(-1);
+        
+	-o-transform: scaleX(-1);
+        
+	-webkit-transform: scaleX(-1);
+        
+	transform: scaleX(-1);
+        
+	filter: FlipH;
+        
+	-ms-filter: "FlipH";
+}
+}
+
+@keyframes titleslide {
+    from { left: -150%; }
+    to { left: 52%; }
 }
 
 hi,h2,h4,h6 {
@@ -41,10 +59,12 @@ p {
 	font-size:13px;
 
 }
+
 div.cons {
 	margin-top: 275px;
 	margin-bottom: 275px;
 }
+
 a {
     text-decoration:none;
     transition: all 0.1s ease-in-out;
@@ -54,6 +74,7 @@ a {
     outline: none;
 	color:#272727;
 }
+
 a:hover {
 	text-decoration: none;
 	color:#aaa;	
