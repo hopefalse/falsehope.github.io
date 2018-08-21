@@ -3,7 +3,10 @@
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -16,16 +19,19 @@ body {
 }
 
 .titlehome {
-	
-	max-width: 100%;
-    	
+	width: 90%;
 	height: auto;
-	
-	position: fixed;
-	
-	text-align: center;
 }
 
+
+.hopecenter {	
+		
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -180px;
+}
 
 
 .img-hor-vert {
