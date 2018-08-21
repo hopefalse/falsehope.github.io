@@ -18,6 +18,10 @@ body {
 	overflow-x:hidden;
 }
 
+.landingpage {
+	border-bottom: solid green 10px;
+}
+
 .titlehome {
 	width: 90%;
 	height: auto;
