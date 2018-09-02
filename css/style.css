@@ -18,6 +18,10 @@ body {
 	overflow-x:hidden;
 }
 
+#title {
+	padding-top: 30px;
+}	
+
 .titlehome {
 	width: 90%;
 	height: auto;
@@ -128,9 +132,6 @@ ol {
 
 .container {
 	height: 100px;
-}
-.containera {
-	height: 400px;
 }
 
 
