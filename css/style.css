@@ -35,6 +35,11 @@ body {
 	margin-top: 20px;
 }
 
+.titlecontainerdiv {
+	position: absolute;
+	z-index: 5;
+}
+
 .titlehome {
 	width: 90%;
 	height: auto;
@@ -252,6 +257,7 @@ vid border
 	
 	border-left: 14px solid black;
 	border-right: 14px solid black;
+	border-bottom: 14px solid black;
 	
 }
 /*===========================

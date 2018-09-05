@@ -1,5 +1,6 @@
 ﻿.trunk,
 .trunk div {
+	
 
   background: gray;
   
@@ -12,7 +13,7 @@ height: 15px;
   
 position: absolute;
   
-margin-left: -10px;
+margin-left: -20px;
   
 -webkit-animation-name: rot;
   
@@ -47,7 +48,7 @@ animation-timing-function: ease-in-out;
   
 bottom: -10;
   
-left: 50%;
+left: 30%;
   
 -webkit-animation-name: rot-root;
   
