@@ -47,11 +47,13 @@ body {
 }
 
 .hopecenter {	
+	
 	position: fixed;
   	top: 50%;
   	left: 50%;
   	margin-top: -150px;
   	margin-left: -180px;
+	z-index: 9999;
 }
 
 .img-hor-vert {	
