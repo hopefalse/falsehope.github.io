@@ -8,28 +8,45 @@
   zoom: 1.0 ;
 } 
 
+.bg {
+	overflow-x: hidden;
+	overflow-x: initial !important;
+}
+
+.bgcolor {
+	background-color: #00b4ff;
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
 	color:#fff;
-	background-color:#fff;
+	background-color:#00b4ff;;
 	overflow-x:hidden;
 }
-
-#title {
-	padding-top: 30px;
-}	
+	
+.container2 {
+	max-width: 100%;
+	height: auto;
+	background-color: #00b4ff;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 
 .titlehome {
 	width: 90%;
 	height: auto;
 }
 
+.titlemain {
+	width: 90%;
+	height: auto;
+	
+}
 
 .hopecenter {	
-		
 	position: fixed;
   	top: 50%;
   	left: 50%;
@@ -37,22 +54,15 @@ body {
   	margin-left: -180px;
 }
 
-
-.img-hor-vert {
-     	
-	-moz-transform: scaleX(-1);
-        
-	-o-transform: scaleX(-1);
-        
-	-webkit-transform: scaleX(-1);
-        
-	transform: scaleX(-1);
-        
-	filter: FlipH;
-        
+.img-hor-vert {	
+	-moz-transform: scaleX(-1);        
+	-o-transform: scaleX(-1);       
+	-webkit-transform: scaleX(-1);       
+	transform: scaleX(-1);       
+	filter: FlipH;      
 	-ms-filter: "FlipH";
 }
-}
+
 
 @keyframes titleslide {
     from { left: -150%; }
@@ -133,8 +143,6 @@ ol {
 .container {
 	height: 100px;
 }
-
-
 
 #money {
   animation: shake 10.0s infinite;
@@ -248,9 +256,7 @@ vid border
 vid background
 ============================*/
 
-.bg {
-	background-color: #a1d29a;
-}
+
 
 /*===========================
 video
@@ -262,7 +268,7 @@ video
 	padding-top:30px;
 	height:0;
 	overflow:hidden;
-	background-color: #70bb65;
+	background-color: #00b4ff;;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -283,17 +289,6 @@ video
   	position: relative;
 }
 
-#imagebill {
-  	position: absolute;
-  	left: 0;
-	top: 0;
-	width: 282px;
-	height:	150px;
-
-	animation: dollarbill 25.0s;
-  	animation-iteration-count: infinite;
-}
-
 .natdebt {
 	
 	font-size:25px;
@@ -304,9 +299,12 @@ video
     	transform: translate(-50%, -50%);
 }
 
+#imagetitlehope {
+	animation: titlehope 30.0s;
+  	animation-iteration-count: infinite;
+}
 
-
-@keyframes dollarbill {
+@keyframes titlehope {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -317,7 +315,7 @@ video
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  100% { transform: translate(1px, 1px) rotate(1deg); }
 }
 
 
@@ -531,7 +529,7 @@ video
   margin-bottom: 3px;
   padding: 1px 5px;
   text-transform: uppercase;
-  border:1px solid#ddd;
+  border:1px solid #ddd;
   margin-right: 3px;
 }
 
@@ -562,21 +560,7 @@ ul.social_icons li  a i{
   opacity:.8;
 }
 
-.team .social_icons .fa-facebook:hover, 
-.team .social_icons .fa-twitter:hover, 
-.team .social_icons .fa-google-plus:hover {
-  transform: rotate(360deg);
-  -ms-transform:rotate(360deg);
-  -webkit-transform:rotate(360deg); 
-  transition-duration:2s;
-  transition-property: all;
-  transition-timing-function: ease;
-  opacity:1;
-  transition: all 0.9s ease 0s;
-  -moz-transition: all 0.9s ease 0s;
-  -webkit-transition: all 0.9s ease 0s;
-  -o-transition: all 0.9s ease 0s;
-}
+
 
 .team-bar .first-one-arrow {
   float: left;
@@ -791,8 +775,7 @@ height: 730px;
 
 footer {
 	padding:30px;
-	
-	background:#a1d29a;
+	background:#00b4ff;;
 }
 
 footer p {
@@ -896,8 +879,7 @@ ul.social-network {
     	height: 120px;
     	width: 100%;
     	overflow: hidden;
-	
-  	
+		
 }
 
 }
