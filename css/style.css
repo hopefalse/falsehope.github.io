@@ -26,7 +26,7 @@ body {
 	background-color:#00b4ff;;
 	overflow-x:hidden;
 }
-	
+
 .container2 {
 	max-width: 100%;
 	height: auto;
@@ -34,21 +34,17 @@ body {
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-
-.titlecontainerdiv {
-	position: absolute;
-	z-index: 5;
+	
+.container3 {
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
 }
 
 .titlemain {
 	width: 90%;
 	height: auto;
 	
-}
-
-.hopecenter {	
-	
-	margin-top: 20px;
 }
 
 .sticky {
@@ -251,11 +247,8 @@ ol {
 vid border
 ===========================*/
 .vid-border{
-	
 	border-left: 14px solid black;
-	border-right: 14px solid black;
-	border-bottom: 14px solid black;
-	
+	border-right: 14px solid black;	
 }
 /*===========================
 vid background
