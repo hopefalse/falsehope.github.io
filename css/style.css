@@ -8,6 +8,49 @@
   zoom: 1.0 ;
 } 
 
+#spacechunk {
+	height: 350px;
+	background-color: #272727;
+}
+
+.container2 {
+	max-width: 100%;
+	height: auto;
+	background-color: #272727;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.container3 {
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.titlemain {
+	width: 90%;
+	height: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#grad1 {
+    height: 300px;
+    background-color: #00b4ff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#272727, #00b4ff); /* Standard syntax (must be last) */
+	}
+	
+#grad2 {
+    height: 100px;
+    background-color: #00b4ff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#272727, #00b4ff); /* Standard syntax (must be last) */
+	}
+
 .bg {
 	overflow-x: hidden;
 	overflow-x: initial !important;
@@ -23,35 +66,13 @@ body {
 	font-weight:300;
 	line-height:1.6em;
 	color:#fff;
-	background-color:#00b4ff;;
+	background-color:#272727;
 	overflow-x:hidden;
 }
 
-.container2 {
-	max-width: 100%;
-	height: auto;
-	background-color: #00b4ff;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-	
-.container3 {
-	max-width: 100%;
-	height: auto;
-	margin-top: 20px;
-}
-
-.titlemain {
-	width: 90%;
-	height: auto;
-	
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
+.tinyCloud {
+	font-size: 150px;
+	color: lightgray;
 }
 
 .img-hor-vert {	
@@ -243,18 +264,6 @@ ol {
 	background-color: #70bb65;
 	border-color:#70bb65;
 }
-/*===========================
-vid border
-===========================*/
-.vid-border{
-	border-left: 14px solid black;
-	border-right: 14px solid black;	
-}
-/*===========================
-vid background
-============================*/
-
-
 
 /*===========================
 video
@@ -266,7 +275,7 @@ video
 	padding-top:30px;
 	height:0;
 	overflow:hidden;
-	background-color: #00b4ff;;
+	background-color: #272727;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -277,25 +286,6 @@ video
 	height:100%;
 }
 
-.imgbill {
-	opacity: 0.5;
-}
-
-#containerbill {
-	width: 282px; 
-  	height: 150px;
-  	position: relative;
-}
-
-.natdebt {
-	
-	font-size:25px;
-	opacity: 100;
- 	position: absolute;
-    	top: 50%;
-    	left: 50%;
-    	transform: translate(-50%, -50%);
-}
 
 #imagetitlehope {
 	animation: titlehope 30.0s;
