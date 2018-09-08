@@ -821,9 +821,6 @@ footer .btn-gamp input {
 	border: 1px solid #fff;
 }
 
-.contact-info {
-	color:#fff;
-}
 
 .contact-info ul {
 	list-style:none;
@@ -834,9 +831,6 @@ footer .btn-gamp input {
 	margin-bottom:20px;
 }
 
-.widget {
-  padding-left: 0;
-}
 
 ul.sidebar-gallery {
   list-style: none;
@@ -895,3 +889,16 @@ ul.social-network {
 	font-size:12px;
 	text-shadow:none;
 } 
+
+.links {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	color: white;
+	margin: 20px;
+}
+
+.links:hover {
+	font-size: 40px;
+	color: red;
+}
