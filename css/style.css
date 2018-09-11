@@ -20,14 +20,15 @@
 	background-color: #272727;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	
+	overflow-x:hidden;
+	overflow-x: initial !important;
 }
 
 .container3 {
 	max-width: 100%;
 	height: auto;
 	margin-top: 20px;
-	
+	overflow-x:hidden;
 }
 
 .titlemain {
@@ -73,6 +74,7 @@ body {
 	color:#fff;
 	background-color:#272727;
 	overflow-x:hidden;
+	
 }
 
 .tinyCloud {
