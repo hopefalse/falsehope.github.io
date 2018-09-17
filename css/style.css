@@ -58,8 +58,7 @@
 	}
 
 .bg {
-	overflow-x: hidden;
-	overflow-x: initial !important;
+	overflow-x: hidden !important;
 }
 
 .bgcolor {
