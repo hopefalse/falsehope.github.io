@@ -81,6 +81,20 @@ body {
 	color: lightgray;
 }
 
+.glowborderblinking{ animation:blinking 2.5s infinite;}
+@keyframes blinking{
+	25%{    text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff; }
+	50%{    text-shadow: 2px 2px 3px #fff, 0 0 50px #fff, 0 0 10px #fff; }
+	}
+
+.yourhope:hover {
+	text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff;
+}
+
+.yourhope {
+	text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff;
+}
+
 .img-hor-vert {	
 	-moz-transform: scaleX(-1);        
 	-o-transform: scaleX(-1);       
@@ -173,6 +187,11 @@ ol {
 
 #money {
   animation: shake 10.0s infinite;
+}
+
+.wibble {
+  animation: shake 10.0s infinite;
+  display: inline;
 }
 
 @keyframes shake {
